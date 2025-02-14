@@ -2,7 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from "react";
 import axios from "axios";
-
+//    //"start": "react-scripts start",
+    //"build": "react-scripts build",
+    //"test": "react-scripts test",
+    //"eject": "react-scripts eject"
+//
   export default function ForensicUploader() {
     const [selectedFile, setSelectedFile] = useState(null);
     const [report, setReport] = useState(null);
